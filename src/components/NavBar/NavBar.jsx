@@ -12,7 +12,6 @@ const NavBar = () => {
                 <a href="">
                     <img className={icono} src={miImagen} alt="logo dietetica" />
                 </a>
-                
             </div>
             
             <div className={btnLista}>
@@ -21,6 +20,7 @@ const NavBar = () => {
                 <button className={btn}>Contacto</button>
                 <button className={btn}>Comprar</button>
             </div>
+            
             <CartWidget/>
         </nav>
         </>
