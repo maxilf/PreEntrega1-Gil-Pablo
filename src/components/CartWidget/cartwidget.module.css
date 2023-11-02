@@ -1,4 +1,9 @@
 .carrito{
-    width: 36px;
+    width: 40px;
     margin-top: 10px;
+    background-color: rgb(82, 82, 215);
+    border-radius: 30%;
+    border: 1px solid;
+    padding: 5px;
+        
 }
