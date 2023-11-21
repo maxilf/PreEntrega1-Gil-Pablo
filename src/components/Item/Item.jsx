@@ -1,4 +1,5 @@
 import {cardItem, header, itemHeader, picture,itemImg, info, itemFooter, option} from './item.module.css'
+import { Link } from 'react-router-dom'
 
 const Item = ({id, name, img, price, stock}) => {
 
@@ -15,7 +16,7 @@ const Item = ({id, name, img, price, stock}) => {
                 <p className={info}> Stock disponible: {stock}</p>   
             </section>   
             <footer className={itemFooter}>
-                <button className={option}>Ver detalle</button>
+                <Link to={`/item/${id}`} className={option}>Ver detalle</Link>
             </footer>
         </article>
     )

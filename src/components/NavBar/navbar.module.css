@@ -27,6 +27,13 @@ body{
   width: 750px;
 }
 
+.isActive{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+
 .btn{
   margin-right: 10px;
   background-color: rgb(244, 178, 113);
