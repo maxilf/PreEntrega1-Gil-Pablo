@@ -1,7 +1,7 @@
 import Item from "../Item/Item"
 import {listGroup} from './itemList.module.css'
 
-const ItemList = ({products}) => {
+const ItemList = ( {products}) => {
     return(
             <div className={listGroup}>
                 {products.map(prod => <Item key={prod.id} {...prod}/>)}
